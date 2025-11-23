@@ -32,7 +32,7 @@ Proje, veri kalitesini artırmaya odaklanan kapsamlı temizlik ve özellik mühe
 
 - **Eksik Değer Yönetimi:** Eksik bırakma koordinatları (dropoff\_longitude/latitude) ve mantık dışı yolcu sayıları ($0$ ve $208$) içeren satırlar silinmiştir.
 - **Aykırı Değer Temizliği:**
-    - Ücretler ($\text{fare\_amount}$) için mantıksal sınırlar ($\$2.50$ - $\$100$) belirlenerek uç değerler atılmıştır.
+    - Ücretler fare_amount için mantıksal sınırlar ($\$2.50$ - $\$100$) belirlenerek uç değerler atılmıştır.
     - Koordinatlardaki hatalı $0.0$ (Okyanus) ve dünya sınırları dışındaki değerler temizlenmiştir.
 - **Ölçekleme:** Tüm bağımsız değişkenler (`X`) **StandardScaler** kullanılarak ölçeklenmiştir.
 
